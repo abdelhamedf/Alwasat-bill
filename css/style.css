@@ -319,15 +319,16 @@ main .table .box-14 {
   display: flex;
   justify-content: space-between;
 }
-main .table .box-14 div {
+main .table .box-14 .job {
   flex-basis: 50%;
   padding: 15px 50px;
   position: relative;
+  display: flex;
 }
-main .table .box-14 div p:nth-child(1) {
+main .table .box-14 .job p:nth-child(1) {
   padding-left: 20px;
 }
-main .table .box-14 div:before {
+main .table .box-14 .job:before {
   content: "";
   position: absolute;
   top: 65%;
@@ -345,6 +346,20 @@ main .table .box-14 div p {
   color: var(--main-color);
   font-weight: 900;
   margin-bottom: 5px;
+}
+main .table .box-14 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+  margin-left: 80px;
+}
+main .table .box-14 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-15 {
   grid-column: 1 / span 12;
@@ -365,22 +380,18 @@ main .table .box-16 {
   padding: 15px;
   color: var(--main-color);
 }
-main .table .box-16 .shape {
-  display: flex;
-  height: 15px;
-  width: 150px;
-  border: solid 2px var(--main-color);
-  border-right-width: 4px;
-  border-top: none;
+main .table .box-16 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-16 .shape div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 7);
-}
-main .table .box-16 .shape div:nth-child(7) {
-  border-right: none;
+main .table .box-16 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-17 {
   grid-column: 7 / span 3;
@@ -393,6 +404,19 @@ main .table .box-17 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-17 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-17 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-18 {
   grid-column: 10 / span 3;
   border: 1px solid var(--main-color);
@@ -404,6 +428,19 @@ main .table .box-18 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-18 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-18 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-19 {
   grid-column: 1 / span 6;
   border: 1px solid var(--main-color);
@@ -412,23 +449,18 @@ main .table .box-19 {
   align-items: flex-end;
   padding: 15px;
 }
-main .table .box-19 .shape {
-  display: flex;
-  height: 15px;
-  width: 150px;
-  border: solid 2px var(--main-color);
-  border-right-width: 4px;
-  border-top: none;
-  margin-top: 5px;
+main .table .box-19 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-19 .shape > div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 6);
-}
-main .table .box-19 .shape > div:nth-child(6) {
-  border-right: none;
+main .table .box-19 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-19 .box {
   background-color: rgb(95 113 149 / 43%);
@@ -457,6 +489,19 @@ main .table .box-20 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-20 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-20 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-21 {
   grid-column: 10 / span 3;
   border: 1px solid var(--main-color);
@@ -468,6 +513,25 @@ main .table .box-21 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-21 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-21 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
+main .table .box-21 p {
+  width: 100px;
+}
+main .table .box-21 p:nth-of-type(2) {
+  direction: rtl;
+}
 main .table .box-22 {
   grid-column: 1 / span 6;
   border: 1px solid var(--main-color);
@@ -477,18 +541,18 @@ main .table .box-22 {
   padding: 15px;
   color: var(--main-color);
 }
-main .table .box-22 .shape {
-  display: flex;
-  height: 15px;
-  width: 150px;
-  border: solid 2px var(--main-color);
-  border-top: none;
+main .table .box-22 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-22 .shape > div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 6);
+main .table .box-22 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-23 {
   grid-column: 7 / span 3;
@@ -501,6 +565,19 @@ main .table .box-23 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-23 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-23 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-24 {
   grid-column: 10 / span 3;
   border: 1px solid var(--main-color);
@@ -512,6 +589,19 @@ main .table .box-24 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-24 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-24 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-25 {
   grid-column: 1 / span 6;
   border: 1px solid var(--main-color);
@@ -521,22 +611,18 @@ main .table .box-25 {
   padding: 15px;
   color: var(--main-color);
 }
-main .table .box-25 .shape {
-  display: flex;
-  height: 15px;
-  width: 300px;
-  border: solid 2px var(--main-color);
-  border-right-width: 4px;
-  border-top: none;
+main .table .box-25 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-25 .shape > div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 14);
-}
-main .table .box-25 .shape > div:nth-child(14) {
-  border-right: none;
+main .table .box-25 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-26 {
   grid-column: 7 / span 3;
@@ -549,6 +635,19 @@ main .table .box-26 {
   padding-left: 10px;
   padding-right: 10px;
 }
+main .table .box-26 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-26 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
+}
 main .table .box-27 {
   grid-column: 10 / span 3;
   border: 1px solid var(--main-color);
@@ -559,6 +658,19 @@ main .table .box-27 {
   font-weight: 300;
   padding-left: 10px;
   padding-right: 10px;
+}
+main .table .box-27 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-27 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-28 {
   grid-column: 1 / span 4;
@@ -571,20 +683,18 @@ main .table .box-28 {
   border-left: none;
   border-bottom: none;
 }
-main .table .box-28 .shape {
-  display: flex;
-  height: 15px;
-  width: 200px;
-  border: solid 2px var(--main-color);
-  border-top: none;
-  text-align: right;
+main .table .box-28 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-28 .shape > div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 8);
-  text-align: right;
+main .table .box-28 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-29 {
   grid-column: 5 / span 2;
@@ -597,21 +707,18 @@ main .table .box-29 {
   flex-direction: column;
   align-items: center;
 }
-main .table .box-29 .shape {
-  display: flex;
-  height: 15px;
-  width: 200px;
-  border: solid 2px var(--main-color);
-  justify-content: center;
-  border-top: none;
-  margin-top: 5px;
+main .table .box-29 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
 }
-main .table .box-29 .shape > div {
-  border: solid 2px var(--main-color);
-  border-bottom: none;
-  border-top: none;
-  width: calc(100% / 10);
-  text-align: right;
+main .table .box-29 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 main .table .box-30 {
   grid-column: 7 / span 6;
@@ -623,6 +730,19 @@ main .table .box-30 {
   font-weight: 300;
   padding: 15px;
   border-bottom: none;
+}
+main .table .box-30 input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+}
+main .table .box-30 input[type="text"]:focus {
+  outline: none;
+  font-size: 20px;
+  color: var(--main-color);
 }
 /* & End Table */
 /* & End Form  */
